@@ -5,7 +5,7 @@ from sklearn.linear_model import LinearRegression
 from sklearn.preprocessing import PolynomialFeatures
 
 # Title
-st.title("🌡️ R32 Saturation Temperature Predictor")
+st.title("🌡️ Refrigerant Saturation Temperature Predictor")
 st.markdown("Developed by [Hasan Samir Hasan]")
 # Select Refrigerant Type
 refrigerant = st.selectbox("Select Refrigerant Type", ["R32", "R410A"])
