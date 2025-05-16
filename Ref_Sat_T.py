@@ -45,7 +45,7 @@ R410_data = {
 if refrigerant == "R32":
     data = R32_data
 else:
-    data = R410a_data
+    data = R410_data
 df = pd.DataFrame(data)
 
 
